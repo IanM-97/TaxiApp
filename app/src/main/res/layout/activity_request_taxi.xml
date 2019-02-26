@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RequestTaxi">
+
+    <TextView
+        android:id="@+id/destLong"
+        android:layout_width="221dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/DestLat"
+        android:layout_centerHorizontal="true"
+        android:text="destination long" />
+
+    <TextView
+        android:id="@+id/currentAdd"
+        android:layout_width="221dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/currentLong"
+        android:layout_centerHorizontal="true"
+        android:text="Current Address" />
+
+    <TextView
+        android:id="@+id/current"
+        android:layout_width="221dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="22dp"
+        android:text="Start Location:" />
+
+    <TextView
+        android:id="@+id/currentLat"
+        android:layout_width="221dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/current"
+        android:layout_centerHorizontal="true"
+        android:text="Current Lat" />
+
+    <TextView
+        android:id="@+id/currentLong"
+        android:layout_width="221dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/currentLat"
+        android:layout_centerHorizontal="true"
+        android:text="Current Long" />
+
+    <TextView
+        android:id="@+id/destination"
+        android:layout_width="221dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="121dp"
+        android:text="Destination" />
+
+    <TextView
+        android:id="@+id/DestLat"
+        android:layout_width="221dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/destination"
+        android:layout_centerHorizontal="true"
+        android:text="destination lat" />
+
+    <TextView
+        android:id="@+id/DestAdd"
+        android:layout_width="221dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/destLong"
+        android:layout_centerHorizontal="true"
+        android:text="Destination Address" />
+
+    <Button
+        android:id="@+id/BackB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="191dp"
+        android:onClick="open_back"
+        android:text="Back" />
+
+</RelativeLayout>
